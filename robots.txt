@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://odontiatreio-gr.dokufile.com/sitemap.xml
