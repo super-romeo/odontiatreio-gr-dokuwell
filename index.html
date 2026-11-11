@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Για ανεξάρτητους οδοντιάτρους στην Ελλάδα: ημερολόγιο ραντεβού, καρτέλα ασθενή με οδοντόγραμμα και υπενθυμίσεις σε ένα απλό πρόγραμμα.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Οδοντιατρείο Εύκολα</a></div>
-  <nav class="top"><a href="#ti" data-ev="click_nav_ti">Τι παίρνετε</a><a href="price.html" data-ev="click_nav_timi">Τιμή</a><a href="#paradeigma" data-ev="click_nav_paradeigma">Παράδειγμα</a><a href="#start" data-ev="click_nav_start">Ξεκινήστε</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Οδοντιατρείο Εύκολα</a>
+  <nav><a href="#ti" data-ev="click_nav_ti">Τι παίρνετε</a><a href="price.html" data-ev="click_nav_timi">Τιμή</a><a href="#paradeigma" data-ev="click_nav_paradeigma">Παράδειγμα</a><a href="#start" data-ev="click_nav_start">Ξεκινήστε</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Τα ραντεβού και οι καρτέλες των ασθενών σας σε ένα πρόγραμμα</h1>
-    <p class="sub">Για τον οδοντίατρο που δουλεύει μόνος ή με έναν βοηθό: το ημερολόγιο της εβδομάδας, το οδοντόγραμμα κάθε ασθενή και το σχέδιο θεραπείας στην ίδια οθόνη.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Το χρειάζομαι</a>
-    <p class="cta-note">Πρώιμη πρόσβαση · Σε αυτή τη σελίδα δεν γίνεται ακόμη καμία πληρωμή</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Για τον οδοντίατρο</p>
+      <h1 class="rise" style="--i:1">Τα ραντεβού και οι καρτέλες των ασθενών σας σε ένα πρόγραμμα</h1>
+      <p class="rise" style="--i:2">Για τον οδοντίατρο που δουλεύει μόνος ή με έναν βοηθό: το ημερολόγιο της εβδομάδας, το οδοντόγραμμα κάθε ασθενή και το σχέδιο θεραπείας στην ίδια οθόνη.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Το χρειάζομαι</a>
+      <p class="meta rise" style="--i:4">Πρώιμη πρόσβαση · Σε αυτή τη σελίδα δεν γίνεται ακόμη καμία πληρωμή</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" font-weight="600" fill="#0a1524">Ημερολόγιο</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="190" y="282" font-size="32" fill="#0a1524">Καρτέλα ασθενή</text><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="402" font-size="32" fill="#0a1524">Οδοντόγραμμα</text><rect x="120" y="490" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="522" font-size="32" fill="#0a1524">Υπενθυμίσεις</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" font-weight="600" fill="#0a1524">ραντεβού</text><rect x="730" y="370" width="280" height="28" rx="8" fill="#ffffff" /><rect x="730" y="430" width="200" height="28" rx="8" fill="#b9c3d2" /><rect x="730" y="490" width="300" height="28" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="730" y="550" width="160" height="28" rx="8" fill="#dde2ea" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Για</dt><dd>Τον οδοντίατρο</dd></div>
+      <div><dt>Τι</dt><dd>Ημερολόγιο ραντεβού</dd></div>
+      <div><dt>Πώς</dt><dd>Στην ίδια οθόνη</dd></div>
+      <div><dt>Πρόσβαση</dt><dd>Πρώιμη πρόσβαση</dd></div>
+    </dl>
+  </section>
 
   <section id="ti" data-view="features_view">
-    <h2>Τι παίρνετε</h2>
-    <div class="grid">
-      <div class="card"><b>Ημερολόγιο ραντεβού</b><span>Η εβδομάδα του ιατρείου με διάρκεια ανά πράξη.</span><br><a class="btn" href="price.html" data-ev="feature_imerologio">Το χρειάζομαι</a></div>
-      <div class="card"><b>Καρτέλα ασθενή</b><span>Στοιχεία, ιστορικό και ιατρικές σημειώσεις σε ένα σημείο.</span><br><a class="btn" href="price.html" data-ev="feature_kartela">Το χρειάζομαι</a></div>
-      <div class="card"><b>Οδοντόγραμμα</b><span>Η κατάσταση κάθε δοντιού και οι πράξεις που έγιναν.</span><br><a class="btn" href="price.html" data-ev="feature_odontogramma">Το χρειάζομαι</a></div>
-      <div class="card"><b>Υπενθυμίσεις</b><span>Μήνυμα στον ασθενή την προηγούμενη μέρα του ραντεβού.</span><br><a class="btn" href="price.html" data-ev="feature_ypenthymiseis">Το χρειάζομαι</a></div>
+    <div class="stack"><h2>Τι παίρνετε</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="34" font-weight="600" fill="#0a1524">Ημερολόγιο ραντεβού</text><text x="100" y="170" font-size="30" fill="#566174">διάρκεια ανά πράξη</text><rect x="120" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="320" width="110" height="72" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Ημερολόγιο ραντεβού</h3><p>Η εβδομάδα του ιατρείου με διάρκεια ανά πράξη.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_imerologio">Το χρειάζομαι</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Καρτέλα ασθενή</text><text x="100" y="185" font-size="30" fill="#566174">ιατρικές σημειώσεις</text><rect x="100" y="250" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="260" height="22" rx="8" fill="#b9c3d2" /><rect x="100" y="350" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="400" width="200" height="22" rx="8" fill="#dfe8f7" /><circle cx="560" cy="400" r="52" fill="#dfe8f7" /><polyline points="536,400 552,418 588,376" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Καρτέλα ασθενή</h3><p>Στοιχεία, ιστορικό και ιατρικές σημειώσεις σε ένα σημείο.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kartela">Το χρειάζομαι</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Οδοντόγραμμα</text><text x="100" y="185" font-size="30" fill="#566174">κάθε δοντιού</text><line x1="120" y1="480" x2="660" y2="480" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="320" width="70" height="160" fill="#dfe8f7" /><rect x="280" y="250" width="70" height="230" fill="#12397a" /><rect x="400" y="360" width="70" height="120" fill="#b9c3d2" /><rect x="520" y="290" width="70" height="190" fill="#dde2ea" /></svg></div>
+        <h3>Οδοντόγραμμα</h3><p>Η κατάσταση κάθε δοντιού και οι πράξεις που έγιναν.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_odontogramma">Το χρειάζομαι</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Υπενθυμίσεις</text><text x="100" y="185" font-size="30" fill="#566174">την προηγούμενη μέρα</text><rect x="100" y="250" width="460" height="56" rx="28" fill="#dfe8f7" /><rect x="100" y="330" width="380" height="56" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="410" width="300" height="56" rx="28" fill="#12397a" /><circle cx="130" cy="278" r="10" fill="#12397a" /></svg></div>
+        <h3>Υπενθυμίσεις</h3><p>Μήνυμα στον ασθενή την προηγούμενη μέρα του ραντεβού.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ypenthymiseis">Το χρειάζομαι</a>
+      </article>
     </div>
   </section>
 
-  <section id="paradeigma" data-view="example_view">
-    <h2>Παράδειγμα (φανταστικά στοιχεία)</h2>
-    <p class="fine">Μια οδοντίατρος στη Λάρισα έχει 22 ραντεβού την εβδομάδα. Ένας ασθενής ζητά να μετακινήσει το ραντεβού του· το νέο κενό φαίνεται αμέσως στο ημερολόγιο. Στην καρτέλα του φαίνεται ότι στο 36 έχει ξεκινήσει απονεύρωση σε δύο συνεδρίες, και η επόμενη συνεδρία κλείνεται με τη σωστή διάρκεια.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Δείτε την προσφορά</a>
+  <section id="paradeigma" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Παράδειγμα</h2>
+      <p>Μια οδοντίατρος στη Λάρισα έχει 22 ραντεβού την εβδομάδα. Ένας ασθενής ζητά να μετακινήσει το ραντεβού του· το νέο κενό φαίνεται αμέσως στο ημερολόγιο. Στην καρτέλα του φαίνεται ότι στο 36 έχει ξεκινήσει απονεύρωση σε δύο συνεδρίες, και η επόμενη συνεδρία κλείνεται με τη σωστή διάρκεια.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Δείτε την προσφορά</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">στη Λάρισα</text><text x="600" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">ημερολόγιο</text><text x="960" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">απονεύρωση</text><rect x="120" y="300" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">σωστή διάρκεια</text><rect x="170" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="450" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="670" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="600" font-size="32" fill="#566174">δύο συνεδρίες</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Πώς λειτουργεί</h2>
-    <p>Ο ανεξάρτητος οδοντίατρος κρατά κάθε μέρα δύο πράγματα: ποιος έρχεται και πότε, και τι έχει γίνει στο στόμα κάθε ασθενή. Συχνά το ένα είναι σε ατζέντα και το άλλο σε χάρτινη καρτέλα.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Πώς λειτουργεί</h2></div>
+    <div class="stack">
+      <p>Ο ανεξάρτητος οδοντίατρος κρατά κάθε μέρα δύο πράγματα: ποιος έρχεται και πότε, και τι έχει γίνει στο στόμα κάθε ασθενή. Συχνά το ένα είναι σε ατζέντα και το άλλο σε χάρτινη καρτέλα.</p>
     <p>Απαντήσεις σε συχνές ερωτήσεις θα βρείτε στις <a href="#faq" data-ev="click_opis_faq">ερωτήσεις</a>, και μπορείτε να ξεκινήσετε <a href="#start" data-ev="click_opis_start">στο τέλος της σελίδας</a>.</p>
     <p>Το Οδοντιατρείο Εύκολα κάνει μία συγκεκριμένη δουλειά: κρατά το ημερολόγιο των ραντεβού και την καρτέλα κάθε ασθενή στο ίδιο πρόγραμμα.</p>
     <p>Το ημερολόγιο δείχνει την εβδομάδα του ιατρείου. Κάθε πράξη έχει τη δική της διάρκεια, ώστε ένας καθαρισμός και μια απονεύρωση να μην κλείνονται με τον ίδιο χρόνο.</p>
@@ -118,29 +152,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Είναι φτιαγμένο για οδοντιάτρους που δουλεύουν μόνοι ή με έναν βοηθό, όχι για μεγάλα πολυϊατρεία με πολλές έδρες.</p>
     <p>Η έκδοση παραστατικών προς την ΑΑΔΕ και τα myDATA μένουν στο πρόγραμμα τιμολόγησης ή στον λογιστή σας.</p>
     <p>Το Οδοντιατρείο Εύκολα κρατά ραντεβού και καρτέλες· δεν δίνει ιατρικές οδηγίες και δεν αντικαθιστά την κρίση του γιατρού.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Ερωτήσεις</h2>
-    <h3>Για ποιους είναι;</h3>
-    <p>Για ανεξάρτητους οδοντιάτρους στην Ελλάδα που δουλεύουν μόνοι ή με έναν βοηθό.</p>
-    <h3>Τι κάνει το πρόγραμμα;</h3>
-    <p>Κρατά το ημερολόγιο των ραντεβού και την καρτέλα κάθε ασθενή με οδοντόγραμμα και σχέδιο θεραπείας.</p>
-    <h3>Κάνει τιμολόγηση στα myDATA;</h3>
-    <p>Όχι. Η τιμολόγηση μένει στο πρόγραμμα τιμολόγησης ή στον λογιστή σας.</p>
-    <h3>Μπορώ να το χρησιμοποιήσω ήδη;</h3>
-    <p>Όχι ακόμη. Η υπηρεσία είναι υπό προετοιμασία και ελέγχουμε αν τη χρειάζονται οι οδοντίατροι.</p>
+    <div class="stack"><h2>Ερωτήσεις</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Για ποιους είναι;</h3><p>Για ανεξάρτητους οδοντιάτρους στην Ελλάδα που δουλεύουν μόνοι ή με έναν βοηθό.</p></div>
+      <div class="split flip"><h3>Τι κάνει το πρόγραμμα;</h3><p>Κρατά το ημερολόγιο των ραντεβού και την καρτέλα κάθε ασθενή με οδοντόγραμμα και σχέδιο θεραπείας.</p></div>
+      <div class="split flip"><h3>Κάνει τιμολόγηση στα myDATA;</h3><p>Όχι. Η τιμολόγηση μένει στο πρόγραμμα τιμολόγησης ή στον λογιστή σας.</p></div>
+      <div class="split flip"><h3>Μπορώ να το χρησιμοποιήσω ήδη;</h3><p>Όχι ακόμη. Η υπηρεσία είναι υπό προετοιμασία και ελέγχουμε αν τη χρειάζονται οι οδοντίατροι.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Πείτε μας</h2>
-    <p><label>Πόσα ραντεβού έχετε την εβδομάδα<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— επιλέξτε —</option><option>Έως 20</option><option>20–50</option><option>Πάνω από 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Ξεκινήστε</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Πείτε μας</h2>
+    </div>
+    <div class="tile stack">
+      <label>Πόσα ραντεβού έχετε την εβδομάδα<select data-ev-focus="form_start"><option value="">— επιλέξτε —</option><option>Έως 20</option><option>20–50</option><option>Πάνω από 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Ξεκινήστε</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Οδοντιατρείο Εύκολα</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Πολιτική απορρήτου</a></p>
-  <p class="muted">Το Οδοντιατρείο Εύκολα κρατά ραντεβού και καρτέλες ασθενών· δεν είναι ιατρική συμβουλή και δεν εκδίδει παραστατικά.</p>
+  <p>Το Οδοντιατρείο Εύκολα κρατά ραντεβού και καρτέλες ασθενών· δεν είναι ιατρική συμβουλή και δεν εκδίδει παραστατικά.</p>
 </div></footer>
 
 </body>
